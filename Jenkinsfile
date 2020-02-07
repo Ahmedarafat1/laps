@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Build') {
+    stage('') {
       steps {
-        load 'laps/jenkinsfile'
+        build 'build'
       }
     }
 
